@@ -27,7 +27,7 @@ def getTitle(line):
 
 
 try:
-    with open('exp.csv',encoding='utf-8',mode='r') as file:
+    with open('fide_historical.csv',encoding='utf-8',mode='r') as file:
         file.readline()
         dataset = dict()
         line_number = 1
